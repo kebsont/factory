@@ -1,0 +1,31 @@
+/*===================En tete================*/
+
+.souscat
+{
+	display: inline-block;
+	text-decoration-line: none;
+	margin-top: 5px;
+	margin-right: 35px;
+	align-content: center;
+}
+
+.souscat ul
+{
+	list-style-type: none;
+}
+
+.souscat li
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.souscat a
+{
+	font-size: 1.3em;
+	color: #133143;
+	padding-bottom: 3px;
+	text-decoration: none;
+	font-family: "Agency FB";
+	font-size: 22px;
+}

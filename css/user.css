@@ -1,0 +1,110 @@
+.body
+{
+	font-family: "Agency FB";
+	font-size: 18px;
+	font-weight: ;
+}
+
+@font-face{
+	font-family: 'GLYPHICONS Halflings';
+	src: url('polices/glyphicons-halflings-regular.eot') format('eot'),
+	url('polices/glyphicons-halflings-regular.ttf') format('truetype'),         
+	url('polices/glyphicons-halflings-regular.svg') format('svg'); 
+}
+@font-face{
+	font-family: 'Agency FB';
+	src: url('polices/agency.ttf') format('truetype');
+}
+
+/* La NavBar principale et modelisation */
+.navbar-default 
+{
+	background-color: #fc863a;
+}
+.navbar .rg .nav > li > a
+{
+	color: #133143;
+    font-weight: bold;
+    margin: none;
+    font-size: 0.9em;
+} 
+.navbar .rg .nav > li :hover,
+.navbar .rg .nav > li :focus
+{
+	color: white;
+}
+
+#sidebar-gauche 
+{
+	list-style-type: none;
+}
+.row .nav ul
+{
+	list-style-type: none;
+	color
+}
+
+.row .nav ul > li > a:hover
+{
+	color:#fc863a;
+}
+
+.row .pil > li > a
+{
+	color: #133143;
+	background-color:;
+}
+
+.body-account
+{
+	font-family: "Agency FB";
+	font-size: 20px;
+	font-weight:bolder ;
+}
+
+.body-account .section .pil > li > a:hover,
+.body-account .section .pil > li > a:active,
+.body-account .section .pil > li > a:focus
+{
+	color:#fc863a;
+}
+
+/*<?php echo '<img class="img-circle" width="200px" height= "200px" src="img/user1.png"';?>*/
+
+
+
+
+
+                    /*<div class="row">
+                        <div class="col-sm-8 col-xm-8 col-lg-8 col-md-8"> 
+                        <legend> <h3> Paramétres Connexion et Sécurité </legend>
+                            <div class="list-group">
+                              <a href="#" class="list-group-item">Adresse Mail: <em>luneforlife@gmail.com</em></a>
+                              <a href="#" class="list-group-item">Changer de Mot de Passe</a>
+                            </div>
+                        </div>
+                    </div> 
+
+
+
+
+
+                    <div class="row"> 
+                        <form style="margin-bottom:20px;margin-top:20px;" method="POST" action="">
+                            <fieldset>
+                                <legend><h3> Paramétres de la Boutique</h3></legend>
+
+                                <div class="form-group col-sm-7 col-xm-7 col-lg-7 col-md-7 ">
+                                    <input type="text" name="nom_boutik" class="form-control" id="nomb"  placeholder="Quincallierie Le Grand" ><br>
+                                    <input type="text" name="adrr_boutik" class="form-control" id="aboutik" placeholder="Voie de degagement Nord"><br>
+                                    <select class="form-control" name="Domaine">
+                                                <option>Domaine</option>
+                                                <option>Plasturgie</option>
+                                                <option>Peinture</option>
+                                                <option>Eléctronique</option>
+                                </select><br>
+                                <button type="submit" class="btn btn-warning" style="font-size:18px;"> Sauvegarder changements</button><br>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div> */
